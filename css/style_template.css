@@ -1,0 +1,404 @@
+/* General Styles */
+.silly> {
+  font-family: "Kablammo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tinos-bold {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .tinos-regular-italic {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .tinos-bold-italic {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+body {
+    color: rgb(255, 255, 255);    
+    margin:0;
+    padding:0;
+    
+}
+/* Nav Styles */
+nav {
+    display:flex;
+    background-color: black;
+    color:white;
+    justify-content: space-around; 
+    box-shadow: 0 8px 15px rgba(244, 6, 6, .2); 
+    margin:0%;   
+    font-family: 'Tinos',sans-serif;
+}
+
+nav p, nav a {
+    color: white;
+    font-family: 'Tinos',sans-serif;
+}
+
+nav a {
+    color: rgb(235, 12, 12);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+display:flex;
+justify-content: center;    
+background-color:black;
+box-shadow: 0 2px 15px rgba(244, 6, 6, .8); 
+
+}
+
+footer a {
+    color: red;
+    padding:.5%;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Splash Section */
+.splash {
+    display:flex;
+    align-items:center;
+    justify-content: center; 
+    flex-direction: column;
+    position:relative; 
+    
+}
+
+.splash h1 {
+font-family: 'Tinos',sans-serif;
+}
+
+.splash img {
+    border-radius: 50%;
+    border: 4px black;
+    box-shadow: 0 8px 15px 5px rgba(255, 255, 255, 0.3);
+    position: relative;
+    top: -10px;
+    box-shadow: 0 2px 15px rgba(244, 6, 6, .3);    
+    width: 175px;
+}
+
+.splash img:hover{
+    box-shadow: 0 2px 15px 10px rgba(244, 6, 6, .3);  
+    transform: scale(1.25);
+
+}
+
+.pop{
+background-color:black;
+margin:0;
+
+}
+.pop hr{
+    color: red;
+    box-shadow: 0 2px 18px 3px rgba(255, 255, 255);
+    width: 100%;
+
+}
+.splash p1{
+font-family: 'Tinos',sans-serif;
+font-weight: 700;
+}
+
+.splash p2{
+font-family: 'Tinos',sans-serif;
+font-style: italic;
+}
+
+/* Horizontal Rules */
+hr {
+    color: black;
+    
+    width: 90%;
+    border: 20% rgb(0, 0, 0);
+    box-shadow: 0 2px 15px rgba(244, 6, 6, .8);
+  
+}
+
+/* Sections */
+section {
+    color: black;
+    
+}
+/* Section Headings */
+
+.Lead h2{
+    color:white;
+}
+
+.Lead{
+    color:white;
+    list-style-type: none;
+
+}
+.wow h2{
+    color:white;
+}
+section h2 {
+    margin-bottom:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color:black;
+    font-family: 'Tinos',sans-serif;
+    
+}
+
+/* Paragraph Styles */
+section p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self:center;
+    position: relative;
+    justify-self: center;
+    justify-items: center;
+    color: black;
+    font-family: 'Tinos',sans-serif;
+    margin-bottom: 20px;
+}
+.classes i{
+    color: black;
+    font-family: 'Tinos',sans-serif;
+    font-weight: 700;
+
+}
+.classes{
+    display: flex;
+    align-items:center;  
+    justify-content: center;
+    flex-direction:column;
+    position: relative;
+}
+/* link styles */
+section a {
+margin:10px ;
+color: rgb(239, 10, 10);
+text-decoration:none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+section a:hover {
+color: whitesmoke;
+
+}
+/* List Styles */
+ul {
+    display: grid;
+    color:white;
+    font-family:'Tinos', sans-serif;
+    font-size: medium;
+}
+
+dl {
+display: grid;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position: relative;
+font-family: 'Tinos',sans-serif;
+
+}
+dl dt{
+    font-family: 'Tinos',sans-serif;
+    font-size: medium;
+}
+dl dd{
+    font-family: 'Tinos',sans-serif;
+}
+.Skills{
+color: white;
+list-style-type: none; 
+margin-top: -20px;   
+font-family: 'Tinos',sans-serif;
+display: grid;
+grid-template-columns: repeat(3, 13%);
+gap: 25px;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position:relative;
+}
+
+.pass{
+    background-color: rgb(0,0, 0);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 17px  rgba(244, 6, 6, .5);    
+    font-family: 'Tinos',sans-serif;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pass li{
+    
+        font-family: 'Tinos',sans-serif;
+    
+}
+.pass:hover{
+    box-shadow: 0 2px 17px 15px rgba(244, 6, 6, .5);   
+    background-color: white; 
+    color: black;
+    transform:scale(1.2);
+
+}
+
+h2{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    padding-bottom: 15px;
+}
+.Skills ul{
+    margin-top: -10px;
+    font-family: 'Tiros',sans-serif;
+    list-style-type: none;
+}
+
+/* Project Section */
+.three-col{
+   
+    color: white;
+    display: grid;
+    font-family: 'Tinos',sans-serif;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 25px;
+    align-items: stretch;
+    margin: 20px;
+    position: relative;
+}
+.card ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 35px;
+    list-style-type: none;
+
+    
+}
+.card {
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 11px 2px red;
+
+    font-family: 'Tinos',sans-serif;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    position: relative;
+    align-self: center;
+    
+}
+.card li{
+    
+    font-family: 'Tinos',sans-serif;
+    
+}
+
+.card:hover{
+    box-shadow: 0 2px 25px 18px rgba(255, 0, 0, 0.5);  
+    transform: scale(1.1);
+    
+    
+}
+
+.card img {
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 230px;
+  
+}
+.card h3 {
+    color: red;
+    font-family: 'Tinos',sans-serif;
+    
+    list-style-type: none;
+    
+}
+
+
+
+/* Contact Page Styles */
+.one-col{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    justify-items: center;
+
+}
+form {
+    display: grid;
+    align-items: center;
+}
+
+form input, form textarea {
+    border-color: black;
+    margin-bottom: 10px;
+
+}
+
+form input:focus, form textarea:focus {
+    box-shadow: 0 2px 25px 10px rgba(255, 0, 0, 0.5);  
+    transform: scale(1.02);
+
+}
+form button {
+    border-color: black;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+form button:hover {
+    box-shadow: 0 2px 25px 10px rgba(255, 0, 0, 0.5);  
+    transform: scale(1.1);
+}
+
+
+
+
+
